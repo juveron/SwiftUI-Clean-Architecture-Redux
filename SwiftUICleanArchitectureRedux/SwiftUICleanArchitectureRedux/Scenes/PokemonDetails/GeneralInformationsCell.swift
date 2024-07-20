@@ -9,7 +9,16 @@ import SwiftUI
 
 struct GeneralInformationsCell: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TitleCells(text: "Informations General")
+            FormCells(text1: "Numéro du Pokedex", text2: "#1 - 1er génération")
+            FormCells(text1: "Numéro du Pokedex", text2: "#1 - 1er génération")
+            FormCells(text1: "Numéro du Pokedex", text2: "#1 - 1er génération")
+            FormCells(text1: "Numéro du Pokedex", text2: "#1 - 1er génération")
+            FormCells(text1: "Numéro du Pokedex", text2: "#1 - 1er génération")
+            FormCells(text1: "Numéro du Pokedex", text2: "#1 - 1er génération")
+            FormCells(text1: "Numéro du Pokedex", text2: "#1 - 1er génération")
+        }
     }
 }
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2591DC0E2C49858300651C0B /* SwiftUICleanArchitectureReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC0D2C49858300651C0B /* SwiftUICleanArchitectureReduxApp.swift */; };
-		2591DC102C49858300651C0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC0F2C49858300651C0B /* ContentView.swift */; };
 		2591DC122C49858400651C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2591DC112C49858400651C0B /* Assets.xcassets */; };
 		2591DC152C49858400651C0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2591DC142C49858400651C0B /* Preview Assets.xcassets */; };
 		2591DC1F2C498BFB00651C0B /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC1E2C498BFB00651C0B /* Pokemon.swift */; };
@@ -31,16 +30,17 @@
 		2591DC442C499FFD00651C0B /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC432C499FFD00651C0B /* Reducer.swift */; };
 		2591DC462C49A01100651C0B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC452C49A01100651C0B /* Store.swift */; };
 		2591DC482C49A1C600651C0B /* PokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC472C49A1C600651C0B /* PokemonDetails.swift */; };
-		2591DC4C2C49A23400651C0B /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC4B2C49A23400651C0B /* colors.swift */; };
 		2591DC4E2C49A24700651C0B /* sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC4D2C49A24700651C0B /* sizes.swift */; };
 		2591DC502C49A28B00651C0B /* StatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC4F2C49A28B00651C0B /* StatBar.swift */; };
 		2591DC522C49A2E800651C0B /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC512C49A2E800651C0B /* Icon.swift */; };
+		2591DC542C4BA88600651C0B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC532C4BA88600651C0B /* Home.swift */; };
+		2591DC582C4BC9F200651C0B /* TitleCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC572C4BC9F200651C0B /* TitleCells.swift */; };
+		2591DC5A2C4BCA3A00651C0B /* FormCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DC592C4BCA3A00651C0B /* FormCells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2591DC0A2C49858300651C0B /* SwiftUICleanArchitectureRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICleanArchitectureRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2591DC0D2C49858300651C0B /* SwiftUICleanArchitectureReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICleanArchitectureReduxApp.swift; sourceTree = "<group>"; };
-		2591DC0F2C49858300651C0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2591DC112C49858400651C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2591DC142C49858400651C0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2591DC1E2C498BFB00651C0B /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
@@ -63,10 +63,12 @@
 		2591DC432C499FFD00651C0B /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		2591DC452C49A01100651C0B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		2591DC472C49A1C600651C0B /* PokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetails.swift; sourceTree = "<group>"; };
-		2591DC4B2C49A23400651C0B /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
 		2591DC4D2C49A24700651C0B /* sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sizes.swift; sourceTree = "<group>"; };
 		2591DC4F2C49A28B00651C0B /* StatBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatBar.swift; sourceTree = "<group>"; };
 		2591DC512C49A2E800651C0B /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		2591DC532C4BA88600651C0B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2591DC572C4BC9F200651C0B /* TitleCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCells.swift; sourceTree = "<group>"; };
+		2591DC592C4BCA3A00651C0B /* FormCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,6 @@
 				2591DC1C2C4985FF00651C0B /* Scenes */,
 				2591DC1B2C4985F200651C0B /* Redux */,
 				2591DC0D2C49858300651C0B /* SwiftUICleanArchitectureReduxApp.swift */,
-				2591DC0F2C49858300651C0B /* ContentView.swift */,
 				2591DC112C49858400651C0B /* Assets.xcassets */,
 				2591DC132C49858400651C0B /* Preview Content */,
 			);
@@ -135,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				2591DC3A2C4995B500651C0B /* PokemonDetails */,
+				2591DC532C4BA88600651C0B /* Home.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -171,6 +173,8 @@
 				2591DC3B2C4995F100651C0B /* SearchBar.swift */,
 				2591DC4F2C49A28B00651C0B /* StatBar.swift */,
 				2591DC512C49A2E800651C0B /* Icon.swift */,
+				2591DC572C4BC9F200651C0B /* TitleCells.swift */,
+				2591DC592C4BCA3A00651C0B /* FormCells.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -189,7 +193,6 @@
 		2591DC492C49A1D900651C0B /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				2591DC4B2C49A23400651C0B /* colors.swift */,
 				2591DC4D2C49A24700651C0B /* sizes.swift */,
 			);
 			path = Constant;
@@ -268,10 +271,10 @@
 				2591DC462C49A01100651C0B /* Store.swift in Sources */,
 				2591DC252C498F5000651C0B /* Sprites.swift in Sources */,
 				2591DC2B2C498F9100651C0B /* Stats.swift in Sources */,
-				2591DC4C2C49A23400651C0B /* colors.swift in Sources */,
 				2591DC422C499FE000651C0B /* AppState.swift in Sources */,
 				2591DC352C4993BC00651C0B /* GeneralInformationsCell.swift in Sources */,
-				2591DC102C49858300651C0B /* ContentView.swift in Sources */,
+				2591DC582C4BC9F200651C0B /* TitleCells.swift in Sources */,
+				2591DC542C4BA88600651C0B /* Home.swift in Sources */,
 				2591DC2F2C498FCA00651C0B /* Forme.swift in Sources */,
 				2591DC3C2C4995F100651C0B /* SearchBar.swift in Sources */,
 				2591DC0E2C49858300651C0B /* SwiftUICleanArchitectureReduxApp.swift in Sources */,
@@ -281,6 +284,7 @@
 				2591DC232C498F4000651C0B /* Name.swift in Sources */,
 				2591DC502C49A28B00651C0B /* StatBar.swift in Sources */,
 				2591DC392C49940200651C0B /* StatsCells.swift in Sources */,
+				2591DC5A2C4BCA3A00651C0B /* FormCells.swift in Sources */,
 				2591DC272C498F6900651C0B /* PokemonType.swift in Sources */,
 				2591DC482C49A1C600651C0B /* PokemonDetails.swift in Sources */,
 				2591DC402C499FD000651C0B /* AppReducer.swift in Sources */,

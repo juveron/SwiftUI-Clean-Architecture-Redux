@@ -9,7 +9,13 @@ import SwiftUI
 
 struct PokemonDetails: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center) {
+            GeneralInformationsCell().padding(.horizontal, 8).frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+//            Text("Hello, World!").foregroundStyle(.primaryApp).background(.secondaryBackgroundApp)
+        }
+        .padding(12)
+        .background(.primaryBackgroundApp)
+        .clipShape(RoundedRectangle(cornerRadius: 12))
     }
 }
 
