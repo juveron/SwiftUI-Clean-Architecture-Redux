@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Modèle pour les sexes
 struct Sexe: Codable {
     let male: Int
     let female: Int

@@ -11,7 +11,10 @@ struct Home: View {
     var body: some View {
         ZStack {
             Color.secondaryBackgroundApp.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            PokemonDetails().padding(.horizontal, 16)
+            VStack {
+                SearchBar().padding(10)
+                PokemonDetails().padding(10)
+            }
         }
     }
 }

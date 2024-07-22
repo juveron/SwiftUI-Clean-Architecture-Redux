@@ -17,14 +17,16 @@ struct FormCells: View {
                 .foregroundStyle(.secondaryApp)
                 .padding()
                 .font(.normalSize)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+            Spacer()
             Text(text2)
                 .foregroundStyle(.primaryApp)
                 .padding()
                 .font(.normalSize)
+                .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color.primaryBackgroundApp)
         .border(Color.secondaryBackgroundApp, width: 1)
-        .frame(maxWidth: .infinity)
     }
 }
 

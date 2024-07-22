@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Modèle pour les noms dans différentes langues
 struct Name: Codable {
     let fr: String
     let en: String

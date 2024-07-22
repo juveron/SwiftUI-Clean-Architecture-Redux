@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Modèle pour les statistiques
 struct Stats: Codable {
     let hp: Int
     let atk: Int
@@ -16,7 +15,6 @@ struct Stats: Codable {
     let speDef: Int
     let vit: Int
     
-    // Custom keys for snake_case JSON keys
     enum CodingKeys: String, CodingKey {
         case hp
         case atk

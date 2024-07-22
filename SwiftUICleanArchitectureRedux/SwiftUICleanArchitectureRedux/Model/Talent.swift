@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Modèle pour les talents
 struct Talent: Codable {
     let name: String
     let tc: Bool

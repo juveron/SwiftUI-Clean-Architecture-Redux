@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Modèle pour les résistances
 struct Resistance: Codable {
     let name: String
     let multiplier: Double

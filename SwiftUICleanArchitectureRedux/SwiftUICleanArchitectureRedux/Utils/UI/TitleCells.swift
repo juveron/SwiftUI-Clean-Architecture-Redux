@@ -11,15 +11,16 @@ struct TitleCells: View {
     var text: String = "aucune information"
     
     var body: some View {
-        HStack(alignment: .center) {
+        HStackLayout {
             Text(text)
                 .foregroundStyle(.primaryApp)
-                .padding()
                 .font(.bigSize)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 8)
         }
         .background(Color.secondaryBackgroundApp)
-        .border(Color.secondaryBackgroundApp, width: 4)
-        .frame(maxWidth: .infinity)
+        .border(Color.secondaryBackgroundApp, width: 1)
+        .padding(.vertical, 0)
     }
 }
 

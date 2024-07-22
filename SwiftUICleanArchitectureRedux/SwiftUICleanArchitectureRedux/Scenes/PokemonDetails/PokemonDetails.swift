@@ -10,10 +10,10 @@ import SwiftUI
 struct PokemonDetails: View {
     var body: some View {
         VStack(alignment: .center) {
-            GeneralInformationsCell().padding(.horizontal, 8).frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-//            Text("Hello, World!").foregroundStyle(.primaryApp).background(.secondaryBackgroundApp)
+            GeneralInformationsCell()
+                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
         }
-        .padding(12)
+        .padding(18)
         .background(.primaryBackgroundApp)
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }

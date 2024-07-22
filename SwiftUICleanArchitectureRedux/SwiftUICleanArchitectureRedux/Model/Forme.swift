@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Modèle pour les formes
 struct Forme: Codable {
     let region: String
     let name: Name

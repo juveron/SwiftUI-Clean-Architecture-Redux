@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Modèle principal pour le Pokémon
 struct Pokemon: Codable {
     let pokedexId: Int
     let generation: Int
@@ -27,7 +26,6 @@ struct Pokemon: Codable {
     let level100: Int
     let formes: [Forme]?
     
-    // Custom keys for snake_case JSON keys
     enum CodingKeys: String, CodingKey {
         case pokedexId = "pokedex_id"
         case generation
