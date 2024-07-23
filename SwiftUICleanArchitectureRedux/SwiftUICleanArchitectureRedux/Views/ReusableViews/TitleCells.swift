@@ -2,13 +2,13 @@
 //  TitleCells.swift
 //  SwiftUICleanArchitectureRedux
 //
-//  Created by Jules Elferink on 20/07/2024.
+//  Created by Jules Elferink on 23/07/2024.
 //
 
 import SwiftUI
 
 struct TitleCells: View {
-    var text: String = "aucune information"
+    var text: String = "No informations"
     
     var body: some View {
         HStackLayout {

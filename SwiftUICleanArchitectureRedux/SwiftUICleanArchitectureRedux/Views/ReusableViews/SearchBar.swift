@@ -2,7 +2,7 @@
 //  SearchBar.swift
 //  SwiftUICleanArchitectureRedux
 //
-//  Created by Jules Elferink on 18/07/2024.
+//  Created by Jules Elferink on 23/07/2024.
 //
 
 import SwiftUI
@@ -38,4 +38,3 @@ struct SearchBar: View {
 #Preview {
     SearchBar()
 }
-

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+func appReducer(state: inout AppState, action: AppAction) {
+    switch action {
+    case .pokemonAction(let pokemonAction):
+        pokemonReducer(state: &state.pokemonState, action: pokemonAction)
+    }
+}
